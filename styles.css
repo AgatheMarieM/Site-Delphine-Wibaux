@@ -4,8 +4,9 @@ body {
 
 p, a {
     color: white;
-    font-family: "Trebuchet MS";
+    font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
     font-size: 0.9em;
+
 }
 
 a {
