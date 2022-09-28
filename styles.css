@@ -1,7 +1,7 @@
 body {
     background-color: black;
     background-image: url("src/solargraphe_background.png");
-    background-position: center;
+    background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -33,7 +33,6 @@ p {
     margin-top: 100px;
     overflow: auto;
     align-items: center;
-    overflow: auto;
 }
 
 .projects-links {
