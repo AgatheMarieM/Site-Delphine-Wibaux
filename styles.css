@@ -1,5 +1,10 @@
 body {
     background-color: black;
+    background-image: url("src/solargraphe_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
 
 p a {
@@ -73,7 +78,7 @@ p {
     justify-content: space-between;
 }*/
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .flex-container {
         flex-direction: column;
 
