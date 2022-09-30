@@ -1,28 +1,21 @@
 body {
     background-color: black;
-    background-image: url("src/solargraphe_background.png");
+    background-image: url("src/solargraphe_background2.png");
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
 
-p a {
+.projects-links a {
     color: white;
     font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
     font-size: 12px;
     text-decoration: none;
 }
 
-p a:hover {
+.projects-links a:hover {
     font-style: italic;
-}
-
-p {
-    color: white;
-    font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
-    font-size: 12px;
-
 }
 
 
@@ -45,19 +38,6 @@ p {
 }
 
 
-.media-container {
-    display: flex;
-    flex-direction: column;
-    float: left;
-    width: 60%;
-
-}
-
-.images-container {
-    display: flex;
-    flex-direction: row;
-}
-
 .image-landing-page {
     max-width: 70%;
 }
@@ -67,25 +47,14 @@ p {
 }
 
 
-/*.image {
-    margin: 0 5px;
-}
 
-.images-duo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}*/
 
 @media screen and (max-width: 768px) {
     .flex-container {
         flex-direction: column;
 
     }
-    .images-container {
-        align-items: center;
-        flex-direction: column;
-    }
+
  /*   .projects-links {
 
     }*/
