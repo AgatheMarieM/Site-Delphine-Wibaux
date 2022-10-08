@@ -25,6 +25,7 @@ body {
 
 .projects-links a, strong, .english-container a {
     color: white;
+    display: block;
     font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
     font-size: 12px;
     text-decoration: none;
