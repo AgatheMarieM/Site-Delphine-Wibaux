@@ -17,13 +17,19 @@ body {
     /*
     position: relative;
     */
-    width: 17%;
+    width: 50%;
     flex-direction: column;
+}
+
+.fr-solo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 
 
-.projects-links a, strong, .english-container a {
+.projects-links a, strong, .english-link a {
     color: white;
     display: block;
     font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
