@@ -4,15 +4,33 @@ body {
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 100%;
+    margin: 0;
 }
 
-.projects-links a {
+
+.projects-links {
+    display: flex;
+    /*
+    float: left;
+    */
+    /*
+    position: relative;
+    */
+    width: 17%;
+    flex-direction: column;
+}
+
+
+
+.projects-links a, strong, .english-container a {
     color: white;
     font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
     font-size: 12px;
     text-decoration: none;
 }
+
+
 
 .projects-links a:hover {
     font-style: italic;
@@ -21,21 +39,13 @@ body {
 
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
-    margin-top: 100px;
-    overflow: auto;
+    /*margin-top: 100px;*/
+    /*overflow: auto;*/
     align-items: center;
 }
 
-.projects-links {
-    display: flex;
-    float: left;
-    position: relative;
-    top: -60px;
-    width: 17%;
-    flex-direction: column;
-}
 
 
 .image-landing-page {
@@ -45,8 +55,6 @@ body {
 .image-en {
     max-width: 70%;
 }
-
-
 
 
 @media screen and (max-width: 768px) {
