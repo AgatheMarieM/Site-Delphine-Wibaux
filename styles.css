@@ -32,8 +32,8 @@ body {
 .projects-links a, strong, .english-link a {
     color: white;
     display: block;
-    font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
-    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     text-decoration: none;
 }
 
