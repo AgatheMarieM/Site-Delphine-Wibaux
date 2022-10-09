@@ -8,22 +8,6 @@ body {
     margin: 0;
 }
 
-
-.projects-links a, b, .english-link a {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    margin-top: 5px;
-    text-decoration: none;
-}
-
-
-
-.projects-links a:hover {
-    font-style: italic;
-}
-
-
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -33,6 +17,18 @@ body {
     align-items: center;
 }
 
+.flex-container a, .fr-duo b {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.projects-links a:hover {
+    font-style: italic;
+}
+
 .projects-links {
     display: flex;
     float: left;
@@ -40,26 +36,26 @@ body {
     flex-direction: column;
 }
 
-.fr-solo {
+.fr-solo, .fr-duo {
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 .fr-duo {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    width: 100%;
+    margin-top: 28px;
 }
 
-
-.image-landing-page {
-    max-width: 70%;
+.fr-solo > a:first-child, .fr-duo > b:first-child{
+    margin-bottom: 11px;
 }
 
-.image-en {
-    max-width: 70%;
+.english-link  {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 80px;
+    margin-right: 30px;
+    text-decoration: none;
 }
 
 
