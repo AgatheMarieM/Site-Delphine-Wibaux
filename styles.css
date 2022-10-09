@@ -26,15 +26,15 @@ body {
     text-decoration: none;
 }
 
-.projects-links a:hover {
+.fr-links a:hover {
     font-style: italic;
 }
 
-.projects-links em:hover {
+.fr-links em:hover {
     font-style: normal; 
 }
 
-.projects-links {
+.fr-links {
     display: flex;
     float: left;
     flex-direction: column;
@@ -75,7 +75,7 @@ body {
 
     }
 
- /*   .projects-links {
+ /*   .fr-links {
 
     }*/
 }
