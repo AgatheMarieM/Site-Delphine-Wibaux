@@ -39,7 +39,7 @@ body {
     font-style: normal; 
 }
 
-.fr-links {
+.fr-links, .en-links {
     display: flex;
     float: left;
     flex-direction: column;
