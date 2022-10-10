@@ -61,7 +61,7 @@ body {
     margin-top: 0;
 }
 
-.english-link  {
+.english-link, .french-link  {
     display: flex;
     float: left;
     flex-direction: column;
