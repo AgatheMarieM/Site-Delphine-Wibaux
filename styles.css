@@ -31,11 +31,11 @@ body {
     text-decoration: none;
 }
 
-.fr-links a:hover {
+.fr-links a:hover, .en-links a:hover {
     font-style: italic;
 }
 
-.fr-links em:hover {
+.fr-links em:hover, .en-links em:hover {
     font-style: normal; 
 }
 
