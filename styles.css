@@ -6,7 +6,7 @@ html, body {
 body {
     background-color: black;
     background-image: url("src/solargraphe_background3.png");
-    background-position: center;
+    background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
