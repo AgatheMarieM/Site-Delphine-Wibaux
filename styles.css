@@ -73,6 +73,15 @@ body {
     text-decoration: none;
 }
 
+.fr-solo .orange-light, .fr-duo .orange-light {
+    color: #f8d4b4;
+}
+
+.fr-solo .orange-darker {
+    color: #ffa959;
+
+}
+
 
 @media screen and (max-width: 768px) {
     .flex-container {
