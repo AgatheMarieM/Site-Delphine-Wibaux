@@ -13,8 +13,19 @@ body {
     padding: 0;
 }
 
-b {
-    font-weight: 500;
+.flex-container .bolder {
+    font-weight: 550;
+}
+
+.flex-container .smaller {
+    /*font-size: 12px;*/
+    font-size: small;
+    font-weight: 300;
+}
+
+
+.flex-container .bigger {
+    font-size: 18px;
 }
 
 .flex-container {
@@ -30,7 +41,8 @@ b {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    margin-top: 7px;
+    font-weight: 300;
+    margin-top: 9px;
     text-decoration: none;
 }
 
@@ -39,7 +51,7 @@ b {
 }
 
 .fr-links em:hover, .en-links em:hover {
-    font-style: normal; 
+    font-style: normal;
 }
 
 .fr-links, .en-links {
@@ -56,15 +68,15 @@ b {
 }
 
 .fr-duo {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
-.fr-solo > b:first-child, .fr-duo > b:first-child{
-    margin-bottom: 11px;
+.fr-solo > b:first-child, .fr-duo > b:first-child {
+    margin-bottom: 7px;
     margin-top: 0;
 }
 
-.english-link, .french-link  {
+.english-link, .french-link {
     display: flex;
     float: left;
     flex-direction: column;
@@ -81,7 +93,7 @@ b {
     color: #f8d4b4;
 }
 
-.fr-solo .orange-darker, .en-links .orange-darker {
+.flex-container .orange-darker {
     color: #ffb875;
 }
 
@@ -92,7 +104,7 @@ b {
 
     }
 
- /*   .fr-links {
+    /*   .fr-links {
 
-    }*/
+       }*/
 }
