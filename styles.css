@@ -81,9 +81,8 @@ b {
     color: #f8d4b4;
 }
 
-.fr-solo .orange-darker {
+.fr-solo .orange-darker, .en-links .orange-darker {
     color: #ffb875;
-
 }
 
 
