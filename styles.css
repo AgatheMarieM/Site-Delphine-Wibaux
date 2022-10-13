@@ -47,7 +47,7 @@ b {
     float: left;
     flex-direction: column;
     position: relative;
-    left: 20%;
+    left: 25%;
 }
 
 .fr-solo, .fr-duo {
