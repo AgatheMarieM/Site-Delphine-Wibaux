@@ -16,18 +16,14 @@ body {
 }
 
 footer {
+    color: rgba(248, 212, 180, 0.76);
     display: flex;
     flex-direction: column;
-    margin-top: auto;
-}
-
-footer p, footer a {
-    color: rgba(248, 212, 180, 0.76);
     font-family: 'Roboto', sans-serif;
-}
-
-footer a, footer b {
-    font-weight: 500;
+    font-size: 70%;
+    font-weight: 300;
+    margin-top: auto;
+    margin-left: 1%;
 }
 
 .flex-container .bolder {
