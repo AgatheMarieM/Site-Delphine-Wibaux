@@ -1,5 +1,5 @@
 html, body {
-    min-height: 100vh;
+    height: 100vh;
     overflow: auto;
 }
 
@@ -53,7 +53,7 @@ footer {
     text-decoration: none;
 }
 
-.fr-links a:hover, .en-links a:hover {
+.fr-links a:hover, .en-links a:hover, .english-link a:hover, .french-link a:hover {
     font-style: italic;
 }
 
@@ -108,6 +108,10 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+    html, body {
+        min-height: 100vh;
+        /*overflow: auto;*/
+    }
     .flex-container {
         flex-direction: column;
 
