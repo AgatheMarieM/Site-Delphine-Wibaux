@@ -13,16 +13,28 @@ body {
     padding: 0;
 }
 
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: relative;
+    left: 2%;
+    bottom: 0;
+}
+
+footer p, footer a {
+    color: rgba(248, 212, 180, 0.76);
+    font-family: 'Roboto', sans-serif;
+}
+
+footer a, footer b {
+    font-weight: 500;
+}
+
 .flex-container .bolder {
     font-weight: 550;
 }
-
-.flex-container .smaller {
-    /*font-size: 12px;*/
-    font-size: small;
-    font-weight: 300;
-}
-
 
 .flex-container .bigger {
     font-size: 18px;
