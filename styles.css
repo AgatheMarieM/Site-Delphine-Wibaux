@@ -9,18 +9,16 @@ body {
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
 }
 
 footer {
-    text-align: center;
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    position: relative;
-    left: 2%;
-    bottom: 0;
+    flex-direction: column;
+    margin-top: auto;
 }
 
 footer p, footer a {
@@ -38,6 +36,7 @@ footer a, footer b {
 
 .flex-container .bigger {
     font-size: 18px;
+    color: #ffddbb;
 }
 
 .flex-container {
@@ -106,7 +105,9 @@ footer a, footer b {
 }
 
 .flex-container .orange-darker {
-    color: #ffb875;
+    /*color: #ffb875;*/
+    /*color: #ffd9b4;*/
+    color: #feca96;
 }
 
 
