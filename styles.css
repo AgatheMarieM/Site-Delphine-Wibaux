@@ -84,13 +84,13 @@ footer {
 }
 
 .english-link, .french-link {
+    color: #feca96;
     display: flex;
     float: left;
     flex-direction: column;
     position: relative;
     top: 22%;
     left: 39%;
-    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     text-decoration: none;
