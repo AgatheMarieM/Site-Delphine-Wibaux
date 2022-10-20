@@ -44,7 +44,7 @@ footer {
     /*overflow: auto;*/
 }
 
-.flex-container a, .fr-solo b, .fr-duo b {
+.flex-container a, .fr-solo strong, .fr-duo strong {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -78,7 +78,7 @@ footer {
     margin-top: 50px;
 }
 
-.fr-solo > b:first-child, .fr-duo > b:first-child {
+.fr-solo > strong:first-child, .fr-duo > strong:first-child {
     margin-bottom: 7px;
     margin-top: 0;
 }
