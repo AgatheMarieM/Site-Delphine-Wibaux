@@ -15,8 +15,12 @@ body {
     padding: 0;
 }
 
+footer p{
+    margin: 1px 0;
+}
+
 footer {
-    color: rgba(248, 212, 180, 0.76);
+    color: rgba(248, 215, 188, 0.76);
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
@@ -24,6 +28,7 @@ footer {
     font-weight: 300;
     margin-top: auto;
     margin-left: 1%;
+    margin-bottom: 2px;
 }
 
 .flex-container .bolder {
