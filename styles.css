@@ -101,13 +101,7 @@ footer {
     text-decoration: none;
 }
 
-.fr-solo .orange-light, .fr-duo .orange-light {
-    color: #f8d4b4;
-}
-
 .flex-container .orange-darker {
-    /*color: #ffb875;*/
-    /*color: #ffd9b4;*/
     color: #feca96;
 }
 
