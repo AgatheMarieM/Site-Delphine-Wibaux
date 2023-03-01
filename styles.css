@@ -1,6 +1,7 @@
 html, body {
     height: 100vh;
     overflow: auto;
+    font-size: 15px;
 }
 
 body {
@@ -24,11 +25,11 @@ footer {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    font-size: 70%;
+    font-size: 0.7rem;
     font-weight: 300;
-    margin-top: auto;
-    margin-left: 1%;
-    margin-bottom: 2px;
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
 }
 
 .flex-container .bolder {
@@ -36,7 +37,7 @@ footer {
 }
 
 .flex-container .bigger {
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #ffefdf;
 }
 
@@ -46,13 +47,13 @@ footer {
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-    /*overflow: auto;*/
+    position: relative;
 }
 
 .flex-container a, .fr-solo strong, .fr-duo strong {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1.1rem;
     font-weight: 300;
     margin-top: 9px;
     text-decoration: none;
@@ -68,10 +69,9 @@ footer {
 
 .fr-links, .en-links {
     display: flex;
-    float: left;
     flex-direction: column;
-    position: relative;
-    left: 25%;
+    position: fixed;
+    right: 12%;
 }
 
 .fr-solo, .fr-duo {
@@ -91,13 +91,12 @@ footer {
 .english-link, .french-link {
     color: #feca96;
     display: flex;
-    float: left;
     flex-direction: column;
-    position: relative;
-    top: 22%;
-    left: 39%;
+    position: fixed;
+    bottom: 11%;
+    right: 10%;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -106,17 +105,14 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) {
-    html, body {
-        min-height: 100vh;
-        /*overflow: auto;*/
-    }
+@media screen and (max-width: 576px) {
+
     .flex-container {
-        flex-direction: column;
-
+        padding: 0 10% 0 10%;
     }
-
-    /*   .fr-links {
-
-       }*/
+    .fr-links, .en-links {
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
 }
