@@ -23,7 +23,6 @@ body {
 }
 
 .credits .arrow {
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -33,7 +32,6 @@ body {
     font-size: 2rem;
     color: #ffefdf;
 }
-
 
 .regular-footer p {
     margin: 1px 0;
@@ -159,14 +157,15 @@ body {
         color: #ffefdf;
         font-size: 0.9rem;
         font-weight: normal;
+        bottom: 12%;
         right: 3%;
     }
 
-    .regular-footer {
+    .flex-container div.regular-footer {
         display: none;
     }
 
-    a.mobile-footer {
+    .flex-container a.mobile-footer {
         color: #ffefdf;
         cursor: pointer;
         display: block;
