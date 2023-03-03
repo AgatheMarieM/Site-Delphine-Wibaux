@@ -1,6 +1,5 @@
 html, body {
     height: 100vh;
-    overflow: auto;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
 
@@ -31,9 +30,8 @@ body {
 }
 
 .credits .arrow a {
-    color: rgb(248 215 188);
     font-size: 2rem;
-    font-weight: bolder;
+    color: #ffefdf;
 }
 
 
@@ -115,7 +113,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 11%;
+    bottom: 13%;
     right: 10%;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -143,12 +141,12 @@ body {
         flex-direction: column;
         margin: 0;
         padding: 0;
+        height: 100vh;
 
     }
 
     .flex-container {
         padding: 0 10% 0 10%;
-        overflow: auto;
     }
 
     .fr-links, .en-links {
@@ -157,29 +155,29 @@ body {
         position: static;
     }
 
-    .english-link, .french-link {
-        font-size: 1rem;
+    a.english-link, a.french-link {
+        color: #ffefdf;
+        font-size: 0.9rem;
         font-weight: normal;
+        right: 3%;
     }
 
     .regular-footer {
         display: none;
     }
 
-    .mobile-footer {
-        display: block;
-        margin-bottom: 1%;
-        margin-left: 1%;
-    }
-
-    .mobile-footer a {
-        color: white;
+    a.mobile-footer {
+        color: #ffefdf;
         cursor: pointer;
+        display: block;
+        font-size: 0.9rem;
+        position: absolute;
+        bottom: 9%;
+        right: 3%;
         text-decoration: none;
     }
-    .mobile-footer a:hover {
+
+    .mobile-footer:hover {
         font-style: italic;
     }
-
-
 }
