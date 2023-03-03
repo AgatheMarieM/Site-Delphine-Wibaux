@@ -37,11 +37,11 @@ body {
 }
 
 
-footer.regular-footer p {
+.regular-footer p {
     margin: 1px 0;
 }
 
-footer.regular-footer {
+.regular-footer {
     color: rgba(248, 215, 188, 0.76);
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ footer.regular-footer {
     left: 1%;
 }
 
-footer.mobile-footer {
+.mobile-footer {
     display: none;
 }
 
@@ -93,7 +93,7 @@ footer.mobile-footer {
 .fr-links, .en-links {
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: absolute;
     right: 12%;
 }
 
@@ -114,7 +114,7 @@ footer.mobile-footer {
 .english-link, .french-link {
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: absolute;
     bottom: 11%;
     right: 10%;
     font-family: 'Roboto', sans-serif;
@@ -162,22 +162,22 @@ footer.mobile-footer {
         font-weight: normal;
     }
 
-    footer.regular-footer {
+    .regular-footer {
         display: none;
     }
 
-    footer.mobile-footer {
+    .mobile-footer {
         display: block;
         margin-bottom: 1%;
         margin-left: 1%;
     }
 
-    footer.mobile-footer a {
+    .mobile-footer a {
         color: white;
         cursor: pointer;
         text-decoration: none;
     }
-    footer.mobile-footer a:hover {
+    .mobile-footer a:hover {
         font-style: italic;
     }
 
