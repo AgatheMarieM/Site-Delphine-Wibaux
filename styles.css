@@ -39,7 +39,7 @@ body {
     margin: 1px 0;
 }
 
-.regular-footer {
+.flex-container div.regular-footer {
     color: rgba(248, 215, 188, 0.76);
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ body {
     left: 1%;
 }
 
-.mobile-footer {
+.flex-container a.mobile-footer {
     display: none;
 }
 
