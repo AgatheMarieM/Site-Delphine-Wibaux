@@ -112,7 +112,6 @@ footer.mobile-footer {
 }
 
 .english-link, .french-link {
-    color: #feca96;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -123,12 +122,29 @@ footer.mobile-footer {
     text-decoration: none;
 }
 
+.english-link:hover, .french-link:hover {
+    color: #feca96;
+}
+
 .flex-container .orange-darker {
     color: #feca96;
 }
 
 
 @media screen and (max-width: 576px) {
+
+    body {
+        background-color: black;
+        background-image: url("src/solargraphe_background3.png");
+        background-position: 14% 5%;
+        background-repeat: no-repeat;
+        background-size: 356%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+    }
 
     .flex-container {
         padding: 0 10% 0 10%;
@@ -141,20 +157,23 @@ footer.mobile-footer {
         position: static;
     }
 
+    .english-link, .french-link {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
     footer.regular-footer {
         display: none;
     }
 
     footer.mobile-footer {
         display: block;
-        color: rgba(248, 215, 188, 0.76);
-        text-decoration: none;
         margin-bottom: 1%;
         margin-left: 1%;
     }
 
     footer.mobile-footer a {
-        color: rgba(248, 215, 188, 0.76);
+        color: white;
         cursor: pointer;
         text-decoration: none;
     }
